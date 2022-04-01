@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.contaner{
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: rgb(183, 153, 184);
+  padding: 10px;
+  max-width: ;
+
+}
+.table ,th,td{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  color: white;
+  border-collapse: collapse;
+  padding: 15px ;
+  align-items:center ;
+}
+
+.img{
+  border-radius: 50%;
+  padding-left:0px;
+  
+}
+.my-name{
+  padding-right: 10px;
+  padding-top: 25%;
+  padding-left: 43%;
+  padding-right: 0%;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  
+}
+
+.one-img,.two-img,.three-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.iziko,.district,.custle{
+  font-size:small;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  color: white;
+
+}
+.about-franch{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.french{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  padding-top: 30px;
+}
+.sydney{
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
+}
+.visit{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  padding-top: 40px;
+}
+.one-paragraph{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  
+}
+.two-paragraph{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.three-paragraph{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.title{
+  color: white;
+  font-size: xx-large;
+  padding-top: 30px;
+}
+.syd{
+  padding-top: 2px;
+}
+
+
+@media screen and (max-width:760px){
+ 
+
+  .img{
+      max-width: 300px;
+      
+  }
+  .my-name{
+    padding-left: 10%;
+  }
+
+}
