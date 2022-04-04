@@ -44,6 +44,7 @@ body {
   width: 70%;
   height: 215px;
   object-fit: cover;
+  padding-right: 10px;
 }
 
 .iziko,.district,.custle{
