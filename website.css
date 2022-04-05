@@ -157,7 +157,7 @@ font-family: Arial, Helvetica, sans-serif;
   }
 
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:420px){
   .syd {
     padding-left: 20px;
   }
