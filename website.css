@@ -134,12 +134,12 @@ font-family: Arial, Helvetica, sans-serif;
   }
   .one-img,.three-img{
     float: left;
-    width: fit-content;
+    
     padding-right: 10px;
   }
   .two-img{
     float: right;
-    width: fit-content;
+    
     padding-right: 10px;
   }
   .iziko,.district,.custle{
