@@ -41,10 +41,12 @@ body {
 }
 
 .one-img,.two-img,.three-img{
-  width: 70%;
-  height: 215px;
+  width: 40%;
+  height: 150px;
   object-fit: cover;
   padding-right: 10px;
+  float: left;
+  
 }
 
 .iziko,.district,.custle{
@@ -67,6 +69,7 @@ font-family: Arial, Helvetica, sans-serif;
 .sydney{
   color: white;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
   
 }
 .visit{
@@ -95,13 +98,17 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .syd{
   padding-top: 2px;
+  
 }
 .one,.two,.three{
-  display: flex;
+  display: block;
 }
 
 .row {
   display: flex;
+}
+.two-paragraph{
+  padding-right: 15px;
 }
 
 @media screen and (max-width:830px){
@@ -139,7 +146,18 @@ font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 5px;
   }
   .sydney{
-    padding-left: 5em;
+   text-align: center;
+  }
+  .syd{
+    padding-left: 50%;
+  }
+  .my-name{
+    text-align:center ;
   }
 
+}
+@media screen and (max-width:400px){
+  .syd {
+    padding-left: 20px;
+  }
 }
